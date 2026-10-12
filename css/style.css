@@ -51,11 +51,12 @@ header {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.2s;
+    transition: all 0.5s;
 }
 
 #link a:hover {
     color: rgb(0, 145, 255);
+    transform: scale(1.1);
 }
 
 main {
@@ -105,7 +106,7 @@ main {
     border-radius: 5px;
     cursor: pointer;
     border: none;
-    transition: background-color 0.2s;
+    transition: all 1s;
 }
 
 .botao1 {
@@ -115,6 +116,7 @@ main {
 
 .botao1:hover {
     background-color: #4fa7ff;
+    transform: scale(1.05);
 }
 
 .botao2 {
@@ -124,6 +126,7 @@ main {
 
 .botao2:hover {
     background-color: #4f87ff;
+    transform: scale(1.05);
     color: white;
 }
 
@@ -259,6 +262,7 @@ textarea.inputs {
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: all 1s;
 }
 
 .info-card h3 {
@@ -283,6 +287,11 @@ textarea.inputs {
     border-width: 2px;
     border-style:dotted;
     border-color: black;
+}
+
+.info-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 @media (max-width: 979px) {
@@ -403,12 +412,6 @@ textarea.inputs {
         gap: 15px;
         width: 100%;
         margin: 0 auto;
-    }
-
-    .botao1,
-    .botao2 {
-        width: auto;
-        padding: 12px 20px;
     }
 
     .contato-box {
