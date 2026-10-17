@@ -16,6 +16,7 @@ responsáveis.
 - `faq.html` — perguntas frequentes
 - `assets/` — imagens, ícones e fontes
 - `css/` — arquivos de estilos
+- `js/` — arquivos js
 ## Acessibilidade
 Foram consideradas semântica HTML, textos alternativos, contraste, labels em
 formulários e navegação clara.

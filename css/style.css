@@ -241,7 +241,7 @@ textarea.inputs {
     resize: none;
 }
 
-.btn-simples {
+#btn-simples {
     width: 100%;
     margin-top: 10px;
 }
